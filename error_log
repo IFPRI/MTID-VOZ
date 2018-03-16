@@ -1,0 +1,32 @@
+[01-Feb-2017 01:29:40 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 79 bytes) in /home/voz/public_html/modules/field/modules/field_sql_storage/field_sql_storage.module on line 415
+[01-Feb-2017 01:43:58 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 816 bytes) in /home/voz/public_html/includes/database/database.inc on line 2171
+[01-Feb-2017 01:58:47 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 547318 bytes) in /home/voz/public_html/includes/cache.inc on line 455
+[01-Feb-2017 19:03:21 Europe/Helsinki] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 75 bytes) in /home/voz/public_html/includes/menu.inc on line 1589
+[08-Mar-2017 09:01:50 UTC] PHP Warning:  Unknown: POST Content-Length of 9223372036854775807 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[27-Jun-2017 14:40:25 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/voz/public_html/includes/database/database.inc:2171
+Stack trace:
+#0 /home/voz/public_html/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home/voz/public_html/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home/voz/public_html/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home/voz/public_html/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home/voz/public_html/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home/voz/public_html/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home/voz/public_html/includes/bootstrap.inc(455): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  thrown in /home/voz/public_html/includes/database/database.inc on line 2171
+[26-Aug-2017 17:15:12 UTC] PHP Fatal error:  Call to undefined function nikadevs_cms_preprocess_html() in /home/voz/public_html/sites/all/themes/progressive/templates/maintenance-page.tpl.php on line 11
+[26-Aug-2017 17:15:12 UTC] PHP Fatal error:  Call to undefined function nikadevs_cms_preprocess_html() in /home/voz/public_html/sites/all/themes/progressive/templates/maintenance-page.tpl.php on line 11
+[26-Aug-2017 17:15:13 UTC] PHP Fatal error:  Call to undefined function nikadevs_cms_preprocess_html() in /home/voz/public_html/sites/all/themes/progressive/templates/maintenance-page.tpl.php on line 11
+[11-Sep-2017 01:39:44 Europe/Helsinki] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in /home/voz/public_html/includes/common.inc on line 6727
+[13-Sep-2017 15:55:41 Europe/Helsinki] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in /home/voz/public_html/includes/common.inc on line 6727
+[18-Sep-2017 15:17:55 Europe/Helsinki] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in /home/voz/public_html/includes/common.inc on line 6727
+[18-Sep-2017 21:10:52 Europe/Helsinki] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in /home/voz/public_html/includes/common.inc on line 6727
+[19-Sep-2017 22:12:00 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[20-Sep-2017 13:21:27 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[24-Sep-2017 07:38:29 Europe/Helsinki] PHP Fatal error:  Cannot create references to/from string offsets nor overloaded objects in /home/voz/public_html/includes/common.inc on line 6727
+[24-Sep-2017 07:44:48 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[24-Sep-2017 12:03:34 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Sep-2017 07:30:36 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-Sep-2017 13:38:50 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-Sep-2017 20:48:56 Europe/Helsinki] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/voz/public_html/includes/database/query.inc on line 1719
